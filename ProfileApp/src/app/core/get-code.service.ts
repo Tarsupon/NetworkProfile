@@ -6,7 +6,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class GetCodeService {
 
-  URL: string = "https://oauth.vk.com/authorize?client_id=7057838&display=page&redirect_uri=http://localhost:4200/&scope=friends&response_type=code&v=5.101";
+  URL: string = "https://oauth.vk.com/authorize?client_id=7057838&display=page&redirect_uri=http://localhost:4200/&scope=friends&response_type=code&v=5.101&state=123456";
 
   constructor(private http: HttpClient) { }
 
