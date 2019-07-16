@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {CoreModule} from "./core/core.module";
 import { ProfileComponent } from './profile/profile.component';
+import {MatButtonModule, MatCardModule, MatInputModule} from "@angular/material";
+import {GetCodeService} from "./core/get-code.service";
 
 @NgModule({
   declarations: [
@@ -15,8 +17,11 @@ import { ProfileComponent } from './profile/profile.component';
     BrowserModule,
     AppRoutingModule,
     CoreModule,
+    MatCardModule,
+    MatInputModule,
+    MatButtonModule,
   ],
-  providers: [],
+  providers: [GetCodeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

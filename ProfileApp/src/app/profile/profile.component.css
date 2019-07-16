@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  height: 450px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.container__profile {
+  display: flex;
+  justify-content: space-around;
+}
+.profile__personalInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+.profile__societyInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+}
+.container_button {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+}
+.personalInformation__photo {
+  width: 20vh;
+  height: 20vh;
+  border: 2px solid gray;
+}
