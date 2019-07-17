@@ -1,18 +1,17 @@
 <mat-card class="container">
   <div class="container__profile">
     <div class="profile__personalInformation">
-      <i *ngIf="!isImageExists" class="material-icons personalInformation__photo">account_box</i>
-      <img *ngIf="isImageExists" mat-card-avatar class="personalInformation__photo" [src]="imagePath">
+      <img class="personalInformation__photo" [src]="imagePath">
       <mat-form-field>
-        <input matInput class="personalInformation__name" readonly>
+        <input matInput class="personalInformation__name" readonly [value]="userName">
       </mat-form-field>
       <mat-form-field>
-        <input matInput class="personalInformation__surname" readonly>
+        <input matInput class="personalInformation__surname" readonly [value]="userSurname">
       </mat-form-field>
       </div>
     <div class="profile__societyInformation">
       <mat-form-field>
-        <input matInput class="societyInformation__status" placeholder="status" readonly>
+        <input matInput class="societyInformation__status" placeholder="status" readonly [value]="userOnlineStatus | onlineStatus">
       </mat-form-field>
       <mat-form-field>
         <input matInput class="societyInformation__friends" placeholder="friends" readonly>

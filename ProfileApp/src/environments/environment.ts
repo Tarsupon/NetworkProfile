@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  GET_CODE_URL: 'https://oauth.vk.com/authorize?client_id=7057838&display=popup&redirect_uri=http://localhost:4200/&scope=friends&response_type=code&v=5.101',
+  GET_ACCESS_TOKEN: `https://oauth.vk.com/access_token?client_id=7057838&client_secret=DhHwSlUUMc5x02bmSTi1&redirect_uri=http://localhost:4200/&code=${localStorage.getItem('code')}`,
 };
 
 /*

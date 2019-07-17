@@ -1,16 +1,21 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {ParamInterceptor} from "./api.interceptor";
+import {environment} from "../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
 export class GetCodeService {
 
-  URL: string = "https://oauth.vk.com/authorize?client_id=7057838&display=page&redirect_uri=http://localhost:4200/&scope=friends&response_type=code&v=5.101&state=123456";
-
   constructor(private http: HttpClient) { }
 
   getCode() {
-    return this.http.get(this.URL, {responseType: 'text'});
+    return this.http.get(environment.GET_CODE_URL, {responseType: 'text'});
   }
+
+  getToken() {
+    return this.http.get(environment.GET_ACCESS_TOKEN);
+  }
+
 }
