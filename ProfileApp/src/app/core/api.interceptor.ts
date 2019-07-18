@@ -10,13 +10,14 @@ export class ParamInterceptor implements HttpInterceptor {
 
     return next.handle(req).pipe(
       tap((event: HttpEvent<any>) => {
-        if (event instanceof HttpResponse) {
-          if (event.url.includes("http://localhost:4200/?code=") ) {
-            localStorage.setItem('code', event.url.split('=', 2).pop());
-            console.log("URL " + event.url);
-            console.log("Code " + event.url.split('=', 2).pop());
-          }
-        }
+        // if (event instanceof HttpResponse) {
+        //
+        //   if (event.url.includes("http://localhost:4200/?code=") ) {
+        //     localStorage.setItem('code', event.url.split('=', 2).pop());
+        //     console.log("URL " + event.url);
+        //     console.log("Code " + event.url.split('=', 2).pop());
+        //   }
+        // }
       })
     );
   }

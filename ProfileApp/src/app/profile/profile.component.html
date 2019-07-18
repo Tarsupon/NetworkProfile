@@ -1,22 +1,25 @@
 <mat-card class="container">
   <div class="container__profile">
     <div class="profile__personalInformation">
-      <img class="personalInformation__photo" [src]="imagePath">
+      <img class="personalInformation__photo" [src]="info.photo_max">
       <mat-form-field>
-        <input matInput class="personalInformation__name" readonly [value]="userName">
+        <input matInput class="personalInformation__name" readonly [value]="info.first_name">
       </mat-form-field>
       <mat-form-field>
-        <input matInput class="personalInformation__surname" readonly [value]="userSurname">
+        <input matInput class="personalInformation__surname" readonly [value]="info.last_name">
       </mat-form-field>
       </div>
     <div class="profile__societyInformation">
       <mat-form-field>
-        <input matInput class="societyInformation__status" placeholder="status" readonly [value]="userOnlineStatus | onlineStatus">
+        <input matInput class="societyInformation__status" placeholder="status" readonly [value]="info.online | onlineStatus">
       </mat-form-field>
-      <mat-form-field>
-        <input matInput class="societyInformation__friends" placeholder="friends" readonly>
-      </mat-form-field>
+      <div class="societyInformation__friends">
+        <div *ngFor="let friend of friendsInfo" class="friends__singlePerson">
+          <img class="singlePerson__photo" [src]="friend.photo_50">
+          <p class="singlePerson__nameSurname">{{friend.first_name}}{{friend.last_name}}</p>
+        </div>
       </div>
+    </div>
   </div>
-  <button class="container_button" mat-raised-button (click)="getCodeMouseEvent()">Enter from</button>
+  <button mat-raised-button class="container__button" [routerLink]="''">Cancel</button>
 </mat-card>

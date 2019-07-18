@@ -14,4 +14,11 @@ export class UserInformationService {
 
     return this.http.get(BASE_INFORMATION_URL);
   }
+
+  getUserFriendsInformation(userId: number, accessToken) {
+
+    let FRIENDS_INFORMATION_URL: string = `https://api.vk.com/method/friends.get?user_ids=${userId}&order=hints&count=5&fields=nickname,photo_50&access_token=${accessToken}&v=5.101`;
+
+    return this.http.get(FRIENDS_INFORMATION_URL);
+  }
 }

@@ -1,16 +1,43 @@
+//Card settings
+$cardWidth: 600px;
+$cardHeight: 450px;
+$marginPersonalSocieiy: 10px;
+
+//Cancel button
+$cancelButtonWidth: 250px;
+
+//Image border
+$imageBorderWidth: 5px;
+$imageBorderColor: #C3CBD4;
+$imageBorderRadius: 50%;
+
+//User avatar
+$userAvatarWidth: 20vh;
+$userAvatarHeight: 20vh;
+
+//Friend avatar
+$friendAvatarWidth: 7vh;
+$friendAvatarHeight: 7vh;
+
+//Text
+$textColor: #2B587A;
+$textFont: serif;
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 600px;
-  height: 450px;
+  width: $cardWidth;
+  height: $cardHeight;
   margin: auto;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  color: $textColor;
+  font-family: $textFont;
 }
 .container__profile {
   display: flex;
@@ -20,21 +47,43 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 10px;
+  margin: $marginPersonalSocieiy;
 }
 .profile__societyInformation {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 10px;
+  margin: $marginPersonalSocieiy;
 }
-.container_button {
-  width: 250px;
+.container__button {
+  width: $cancelButtonWidth;
   max-width: 100%;
   height: auto;
 }
 .personalInformation__photo {
   width: 20vh;
   height: 20vh;
-  border: 2px solid gray;
+  border-radius: $imageBorderRadius;
+  border: $imageBorderWidth solid $imageBorderColor;
+}
+.societyInformation__friends {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.friends__singlePerson {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.singlePerson__photo {
+  width: $friendAvatarWidth;
+  height: $friendAvatarHeight;
+  border-radius: $imageBorderRadius;
+  border: $imageBorderWidth solid $imageBorderColor
+}
+.singlePerson__nameSurname {
+  color: $textColor;
+  font-family: $textFont;
 }
