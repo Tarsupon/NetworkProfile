@@ -1,24 +1,40 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {Observable} from "rxjs";
+import {UserFriendsInformationModel} from "../shared/models/user-friends-information-model";
+import {map, publishReplay, refCount} from "rxjs/operators";
+import {BaseUserInformationModel} from "../shared/models/base-user-information-model";
+import {environment} from "../../environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class UserInformationService {
 
   constructor(private http: HttpClient) { }
 
+  friends: Observable<UserFriendsInformationModel[]>;
+
   getBaseUserInformation(userId: number, accessToken: string) {
-
-    let BASE_INFORMATION_URL: string = `https://api.vk.com/method/users.get?user_ids=${userId}&fields=online,photo_max&access_token=${accessToken}&v=5.101`;
-
-    return this.http.get(BASE_INFORMATION_URL);
+    return this.http.get(`${environment.GET_USER_ID}${userId}${environment.GET_USER_FIELDS_TOKEN}${accessToken}${environment.VERSION}`).pipe(
+      map((data: {response:BaseUserInformationModel[]}) => data.response[0]),
+    );
   }
 
-  getUserFriendsInformation(userId: number, accessToken) {
+  getUserFriendsInformation(userId: number, accessToken): Observable<UserFriendsInformationModel[]> {
+    if (!this.friends) {
+      this.friends = this.http.get(`${environment.GET_FRIENDS_ID}${userId}${environment.GET_FRIENDS_ORDER_FIELDS_TOKEN}${accessToken}${environment.VERSION}`).pipe(
+        map((data: {response: {items: UserFriendsInformationModel[]}}) => data.response.items),
+        publishReplay(1),
+        refCount(),
+      );
+    }
 
-    let FRIENDS_INFORMATION_URL: string = `https://api.vk.com/method/friends.get?user_ids=${userId}&order=hints&count=5&fields=nickname,photo_50&access_token=${accessToken}&v=5.101`;
+    return this.friends;
+  }
 
-    return this.http.get(FRIENDS_INFORMATION_URL);
+  clearCache() {
+    this.friends = null;
   }
 }

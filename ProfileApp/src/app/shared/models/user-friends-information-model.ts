@@ -1,4 +1,4 @@
-export class UserFriendsInformationModel {
+export interface UserFriendsInformationModel {
   can_access_closed?: boolean;
   first_name: string;
   id?: number;

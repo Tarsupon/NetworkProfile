@@ -5,6 +5,11 @@
 export const environment = {
   production: false,
   GET_ACCESS_TOKEN: `https://oauth.vk.com/access_token?client_id=7057838&client_secret=DhHwSlUUMc5x02bmSTi1&redirect_uri=http://localhost:4200/profile/&code=`,
+  GET_USER_ID: 'https://api.vk.com/method/users.get?user_ids=',
+  GET_USER_FIELDS_TOKEN: '&fields=online,photo_max&access_token=',
+  VERSION: '&v=5.101',
+  GET_FRIENDS_ID: 'https://api.vk.com/method/friends.get?user_ids=',
+  GET_FRIENDS_ORDER_FIELDS_TOKEN: '&order=hints&count=5&fields=nickname,photo_50&access_token=',
 };
 
 /*

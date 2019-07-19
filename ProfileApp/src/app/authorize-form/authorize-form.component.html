@@ -1,8 +1,8 @@
 <mat-card class="container">
   <h3>Welcome to IceApp</h3>
-  <img class="appLogo" src="assets/Images/iceberg-logo.svg">
+  <img class="appLogo" [src]="logoPath">
   <a class="container__button mat-raised-button" href="https://oauth.vk.com/authorize?client_id=7057838&display=popup&redirect_uri=http://localhost:4200/profile/&scope=friends&response_type=code&v=5.101">
-    <img class="button__vkLogo" src="assets/Images/vk-social-network-logo.svg">
+    <img class="button__vkLogo" [src]="vkLogoPath">
     LOGIN with VK
   </a>
 </mat-card>
