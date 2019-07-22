@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatButtonModule, MatCardModule } from '@angular/material';
+import { SharedModule } from '../shared/shared.module';
 
 import { AuthorizeFormRoutingModule } from './authorize-form-routing.module';
 import { AuthorizeFormComponent } from './authorize-form.component';
@@ -10,8 +10,7 @@ import { AuthorizeFormComponent } from './authorize-form.component';
   imports: [
     CommonModule,
     AuthorizeFormRoutingModule,
-    MatCardModule,
-    MatButtonModule
+    SharedModule,
   ]
 })
 export class AuthorizeFormModule { }

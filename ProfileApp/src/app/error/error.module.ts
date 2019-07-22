@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatButtonModule, MatCardModule } from '@angular/material';
+import { SharedModule } from '../shared/shared.module';
+import { ErrorRoutingModule } from './error-routing.module';
 
 import { ErrorComponent } from './error.component';
 
@@ -8,8 +9,8 @@ import { ErrorComponent } from './error.component';
   declarations: [ErrorComponent],
   imports: [
     CommonModule,
-    MatCardModule,
-    MatButtonModule
+    SharedModule,
+    ErrorRoutingModule,
   ]
 })
 export class ErrorModule { }

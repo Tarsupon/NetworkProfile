@@ -22,7 +22,7 @@ export class UserInformationService {
       .pipe(map((data: { response: BaseUserInformationModel[] }) => data.response[0]));
   }
 
-  getUserFriendsInformation(userId: number, accessToken): Observable<UserFriendsInformationModel[]> {
+  getUserFriendsInformation(userId: number, accessToken) {
     if (!this.friends) {
       this.friends = this.http
         .get(`${environment.GET_FRIENDS_ID}${userId}${environment.GET_FRIENDS_ORDER_FIELDS_TOKEN}${accessToken}${environment.VERSION}`)

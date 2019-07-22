@@ -11,7 +11,7 @@ export class GetCodeService {
   constructor(private http: HttpClient) { }
 
   getToken(code: string) {
-    return this.http.get(`${environment.GET_ACCESS_TOKEN}${code}`);
+    return this.http.get(`${environment.GET_ACCESS_TOKEN}${environment.GET_ACCESS_TOKEN_CLIENT_SECRET}${code}`);
   }
 
 }
