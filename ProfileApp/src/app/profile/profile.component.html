@@ -8,10 +8,11 @@
       <mat-form-field>
         <input matInput class="personalInformation__surname" readonly [value]="info.last_name">
       </mat-form-field>
-      </div>
+    </div>
     <div class="profile__societyInformation">
       <mat-form-field>
-        <input matInput class="societyInformation__status" placeholder="status" readonly [value]="info.online | onlineStatus">
+        <input matInput class="societyInformation__status" placeholder="status" readonly
+          [value]="info.online | onlineStatus">
       </mat-form-field>
       <div class="societyInformation__friends">
         <div *ngFor="let friend of friendsInfo | paginate: config" class="friends__singlePerson">

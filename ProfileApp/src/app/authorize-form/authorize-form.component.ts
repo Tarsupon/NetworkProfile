@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
   selector: 'app-authorize-form',
@@ -6,13 +6,4 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
   styleUrls: ['./authorize-form.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class AuthorizeFormComponent implements OnInit{
-  logoPath: string = 'assets/Images/iceberg-logo.svg';
-  vkLogoPath: string = 'assets/Images/vk-social-network-logo.svg';
-
-  ngOnInit() {
-  }
-
-  constructor() { }
-
-}
+export class AuthorizeFormComponent { }

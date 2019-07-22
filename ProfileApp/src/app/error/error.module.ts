@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {MatButtonModule, MatCardModule} from "@angular/material";
-import {RouterModule} from "@angular/router";
-import {routes} from "./error.routing";
+import { MatButtonModule, MatCardModule } from '@angular/material';
+
+import { ErrorComponent } from './error.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [ErrorComponent],
   imports: [
     CommonModule,
     MatCardModule,
-    MatButtonModule,
-    RouterModule.forChild(routes),
+    MatButtonModule
   ]
 })
 export class ErrorModule { }

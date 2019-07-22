@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {MatButtonModule, MatCardModule} from "@angular/material";
-import {RouterModule} from "@angular/router";
-import {routes} from "./authorize-form.routing";
+import { MatButtonModule, MatCardModule } from '@angular/material';
+
+import { AuthorizeFormRoutingModule } from './authorize-form-routing.module';
+import { AuthorizeFormComponent } from './authorize-form.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [AuthorizeFormComponent],
   imports: [
     CommonModule,
+    AuthorizeFormRoutingModule,
     MatCardModule,
-    MatButtonModule,
-    RouterModule.forChild(routes),
+    MatButtonModule
   ]
 })
 export class AuthorizeFormModule { }
