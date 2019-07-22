@@ -1,26 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {AuthorizeFormComponent} from "./authorize-form/authorize-form.component";
-import {ProfileComponent} from "./profile/profile.component";
-import {ErrorComponent} from "./error/error.component";
 
 const routes: Routes = [
   {
     path: '',
-    component: AuthorizeFormComponent,
+    loadChildren: () => import('./authorize-form/authorize-form.module').then(m => m.AuthorizeFormModule)
   },
   {
     path: 'profile',
-    component: ProfileComponent,
+    loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule)
   },
   {
     path: '**',
-    component: ErrorComponent
+    loadChildren: () => import('./error/error.module').then(m => m.ErrorModule)
   }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
 })
 export class AppRoutingModule { }

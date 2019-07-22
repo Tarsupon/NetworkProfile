@@ -14,11 +14,12 @@
         <input matInput class="societyInformation__status" placeholder="status" readonly [value]="info.online | onlineStatus">
       </mat-form-field>
       <div class="societyInformation__friends">
-        <div *ngFor="let friend of friendsInfo" class="friends__singlePerson">
+        <div *ngFor="let friend of friendsInfo | paginate: config" class="friends__singlePerson">
           <img class="singlePerson__photo" [src]="friend.photo_50">
           <p class="singlePerson__nameSurname">{{friend.first_name}}{{friend.last_name}}</p>
         </div>
       </div>
+      <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
     </div>
   </div>
   <button mat-raised-button class="container__button" [routerLink]="''">Cancel</button>
