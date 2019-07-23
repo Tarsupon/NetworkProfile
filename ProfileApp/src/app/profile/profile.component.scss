@@ -1,30 +1,4 @@
-//Card settings
-$cardWidth: 600px;
-$cardHeight: 500px;
-$marginPersonalSocieiy: 10px;
-
-//Cancel button
-$cancelButtonWidth: 250px;
-
-//Image border
-$imageBorderWidth: 5px;
-$imageBorderColor: #C3CBD4;
-$imageBorderRadius: 50%;
-
-//User avatar
-$userAvatarWidth: 20vh;
-$userAvatarHeight: 20vh;
-
-//Friend avatar
-$friendAvatarWidth: 7vh;
-$friendAvatarHeight: 7vh;
-
-//Text
-$textColor: #2B587A;
-$textFont: serif;
-
-//Friends's block
-$friendsBlockHeight: 40vh;
+@import '../../assets/styles/variables';
 
   .container {
     display: flex;
@@ -40,7 +14,7 @@ $friendsBlockHeight: 40vh;
     bottom: 0;
     left: 0;
     color: $textColor;
-    font-family: $textFont;
+    font-family: $textFontFamily;
     box-sizing: border-box;
 
     .container__profile {
@@ -88,7 +62,7 @@ $friendsBlockHeight: 40vh;
 
             .singlePerson__nameSurname {
               color: $textColor;
-              font-family: $textFont;
+              font-family: $textFontFamily;
             }
           }
         }

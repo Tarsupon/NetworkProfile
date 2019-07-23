@@ -1,22 +1,4 @@
-//Card settings
-$cardWidth: 600px;
-$cardHeight: 500px;
-
-//Text
-$textColor: #FFFFFF;
-$textFontFamily: serif;
-$textFontWeight: bold;
-
-//VK button
-$buttonBackgroundColor: #7C90A6;
-$buttonWidth: 300px;
-
-//VK button LOGO
-$vkButtonLogoWidth: 5vh;
-$vkButtonLogoHeight: 5vh;
-
-//App LOGO
-$appLogo: 50vh;
+@import '../../assets/styles/variables';
 
   .container {
     display: flex;
@@ -40,7 +22,7 @@ $appLogo: 50vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: $textColor;
+      color: $buttonTextColor;
       font-family: $textFontFamily;
       font-weight: $textFontWeight;
       width: $buttonWidth;

@@ -1,13 +1,4 @@
-//Card settings
-$cardWidth: 600px;
-$cardHeight: 500px;
-
-//Text
-$textFontFamily: serif;
-$textFontWeight: bold;
-
-//Error LOGO
-$errorLogo: 50vh;
+@import '../../assets/styles/variables';
 
   .container {
     display: flex;
