@@ -9,31 +9,32 @@ $textFontWeight: bold;
 //Error LOGO
 $errorLogo: 50vh;
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: $cardWidth;
-  height: $cardHeight;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.container__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: $textFontFamily;
-  font-weight: $textFontWeight;
-  width: 300px;
-  max-width: 100%;
-  height: auto;
-}
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: $cardWidth;
+    height: $cardHeight;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
-.errorLogo {
-  height: $errorLogo;
-}
+    .errorLogo {
+      height: $errorLogo;
+    }
+
+    .container__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: $textFontFamily;
+      font-weight: $textFontWeight;
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+    }
+  }

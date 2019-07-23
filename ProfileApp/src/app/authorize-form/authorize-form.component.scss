@@ -18,37 +18,41 @@ $vkButtonLogoHeight: 5vh;
 //App LOGO
 $appLogo: 50vh;
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: $cardWidth;
-  height: $cardHeight;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.container__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: $textColor;
-  font-family: $textFontFamily;
-  font-weight: $textFontWeight;
-  width: $buttonWidth;
-  max-width: 100%;
-  height: auto;
-  background-color: $buttonBackgroundColor;
-}
-.button__vkLogo {
-  width: $vkButtonLogoWidth;
-  height: $vkButtonLogoHeight;
-  margin-right: 10px;
-}
-.appLogo {
-  height: $appLogo;
-}
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: $cardWidth;
+    height: $cardHeight;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    .appLogo {
+      height: $appLogo;
+    }
+
+    .container__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $textColor;
+      font-family: $textFontFamily;
+      font-weight: $textFontWeight;
+      width: $buttonWidth;
+      max-width: 100%;
+      height: auto;
+      background-color: $buttonBackgroundColor;
+
+      .button__vkLogo {
+        width: $vkButtonLogoWidth;
+        height: $vkButtonLogoHeight;
+        margin-right: 10px;
+      }
+    }
+  }
+

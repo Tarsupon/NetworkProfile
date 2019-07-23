@@ -23,69 +23,81 @@ $friendAvatarHeight: 7vh;
 $textColor: #2B587A;
 $textFont: serif;
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: $cardWidth;
-  height: $cardHeight;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  color: $textColor;
-  font-family: $textFont;
-  box-sizing: border-box;
-}
-.container__profile {
-  display: flex;
-  justify-content: space-around;
-}
-.profile__personalInformation {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin: $marginPersonalSocieiy;
-}
-.profile__societyInformation {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: $marginPersonalSocieiy;
-}
-.container__button {
-  width: $cancelButtonWidth;
-  max-width: 100%;
-  height: auto;
-}
-.personalInformation__photo {
-  width: 20vh;
-  height: 20vh;
-  border-radius: $imageBorderRadius;
-  border: $imageBorderWidth solid $imageBorderColor;
-}
-.societyInformation__friends {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  height: 40vh;
-}
-.friends__singlePerson {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.singlePerson__photo {
-  width: $friendAvatarWidth;
-  height: $friendAvatarHeight;
-  border-radius: $imageBorderRadius;
-  border: $imageBorderWidth solid $imageBorderColor
-}
-.singlePerson__nameSurname {
-  color: $textColor;
-  font-family: $textFont;
-}
+//Friends's block
+$friendsBlockHeight: 40vh;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: $cardWidth;
+    height: $cardHeight;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: $textColor;
+    font-family: $textFont;
+    box-sizing: border-box;
+
+    .container__profile {
+      display: flex;
+      justify-content: space-around;
+
+      .profile__personalInformation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: $marginPersonalSocieiy;
+
+        .personalInformation__photo {
+          width: $userAvatarWidth;
+          height: $userAvatarHeight;
+          border-radius: $imageBorderRadius;
+          border: $imageBorderWidth solid $imageBorderColor;
+        }
+      }
+
+      .profile__societyInformation {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: $marginPersonalSocieiy;
+
+        .societyInformation__friends {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: flex-start;
+          height: $friendsBlockHeight;
+
+          .friends__singlePerson {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .singlePerson__photo {
+              width: $friendAvatarWidth;
+              height: $friendAvatarHeight;
+              border-radius: $imageBorderRadius;
+              border: $imageBorderWidth solid $imageBorderColor
+            }
+
+            .singlePerson__nameSurname {
+              color: $textColor;
+              font-family: $textFont;
+            }
+          }
+        }
+      }
+    }
+
+    .container__button {
+      width: $cancelButtonWidth;
+      max-width: 100%;
+      height: auto;
+    }
+  }

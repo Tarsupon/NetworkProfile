@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686fb5f1-d9e0-4324-bada-cf1c825c1c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/tslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.routing.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/core/get-code.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/core/get-code.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/core/user-information.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/core/user-information.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/error/error.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/error/error.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/error/error.routing.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/shared/shared.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileApp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/error/error.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/error/error.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,61 +19,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.module.ts">
+        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile-routing.module.ts.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.component.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="-340">
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.ts">
+        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form-routing.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/core/core.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -104,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/core/user-information.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
+            <state relative-caret-position="164">
               <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -119,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="153">
               <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -129,13 +85,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/shared.module.ts">
+        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/pipes/online-status.pipe.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/models/user-model.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -169,16 +140,12 @@
         <option value="$PROJECT_DIR$/ProfileApp/src/app/shared/models/UserModel.ts" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/error/error.component.html" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/error/error.component.ts" />
-        <option value="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.html" />
         <option value="$PROJECT_DIR$/ProfileApp/tsconfig.json" />
         <option value="$PROJECT_DIR$/ProfileApp/src/styles.css" />
         <option value="$PROJECT_DIR$/ProfileApp/src/index.html" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.html" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.ts" />
-        <option value="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.scss" />
-        <option value="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.scss" />
-        <option value="$PROJECT_DIR$/ProfileApp/src/app/error/error.component.scss" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.routing.ts" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.routing.ts" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/error/error.routing.ts" />
@@ -196,6 +163,10 @@
         <option value="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.module.ts" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/error/error.module.ts" />
         <option value="$PROJECT_DIR$/ProfileApp/src/app/core/user-information.service.ts" />
+        <option value="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.html" />
+        <option value="$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.scss" />
+        <option value="$PROJECT_DIR$/ProfileApp/src/app/error/error.component.scss" />
+        <option value="$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.scss" />
       </list>
     </option>
   </component>
@@ -211,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,23 +214,7 @@
               <item name="ProfileApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="authorize-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetworkProfile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetworkProfile" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetworkProfile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetworkProfile" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetworkProfile" type="b2602c69:ProjectViewProjectNode" />
@@ -273,8 +229,7 @@
               <item name="NetworkProfile" type="462c0819:PsiDirectoryNode" />
               <item name="ProfileApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetworkProfile" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,12 +292,13 @@
       <workItem from="1563182209819" duration="110660000" />
       <workItem from="1563546842133" duration="760000" />
       <workItem from="1563783059789" duration="12064000" />
-      <workItem from="1563800544361" duration="5088000" />
+      <workItem from="1563800544361" duration="6477000" />
+      <workItem from="1563862338840" duration="2495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128572000" />
+    <option name="totallyTimeSpent" value="132456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,7 +314,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2470238" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22470239" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.2670068" />
@@ -409,24 +364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/models/user-model.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -444,33 +385,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.routing.ts" />
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile-routing.module.ts.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/app.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -491,24 +411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -535,24 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/pipes/online-status.pipe.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/models/base-user-information-model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -563,26 +455,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.routing.ts" />
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.routing.ts" />
     <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/shared.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -607,16 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -627,9 +491,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/core/core.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="119">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -637,10 +511,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/core/core.module.ts">
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile-routing.module.ts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/pipes/online-status.pipe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/shared/models/user-model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/error/error.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/authorize-form/authorize-form.component.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -656,11 +592,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/core/user-information.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="164">
           <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProfileApp/src/app/profile/profile.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
