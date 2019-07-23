@@ -11,6 +11,7 @@ export const environment = {
   VERSION: '&v=5.101',
   GET_FRIENDS_ID: 'https://api.vk.com/method/friends.get?user_ids=',
   GET_FRIENDS_ORDER_FIELDS_TOKEN: '&order=hints&count=&fields=nickname,photo_50&access_token=',
+  GET_FRIEND_PAGE: 'https://vk.com/',
 };
 
 /*

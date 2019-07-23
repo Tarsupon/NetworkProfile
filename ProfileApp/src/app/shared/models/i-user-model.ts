@@ -1,4 +1,4 @@
-export interface UserModel {
+export interface IUserModel {
   access_token: string;
   expires_in: number;
   user_id: number;

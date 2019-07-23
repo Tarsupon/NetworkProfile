@@ -1,4 +1,4 @@
-export interface BaseUserInformationModel {
+export interface IBaseUserInformationModel {
   can_access_closed?: boolean;
   first_name: string;
   id?: number;
